@@ -6,7 +6,7 @@ Nesta tabela, “grátis” indica disponibilidade sem licença comercial exigid
 |---|---|---|---|---|
 | **syft** | Gerar SBOM em formatos CycloneDX ou SPDX | Containers, diretórios e artefatos | Open source/grátis | `syft dir:. -o cyclonedx-json > sbom.json` |
 | **cosign / Sigstore** | Assinar, atestar e verificar artefatos | Containers e artefatos com integração | Open source/grátis | `cosign verify-attestation <artefato>` |
-| **OSV-Scanner** | Consultar vulnerabilidades por componente | npm, PyPI, Go, Maven, Cargo e outros | Open source/grátis | `osv-scanner --lockfile package-lock.json` |
+| **OSV-Scanner** (Open Source Vulnerabilities) | Consultar vulnerabilidades por componente | npm, PyPI, Go, Maven, Cargo e outros | Open source/grátis | `osv-scanner --lockfile package-lock.json` |
 | **OpenSSF Scorecard** | Avaliar práticas de segurança de projetos open source | Repositórios GitHub | Open source/grátis | `scorecard --repo=github.com/org/repo` |
 | **Dependabot** | Atualizar dependências e indicar vulnerabilidades | Vários, em repositórios GitHub | Grátis | Configurado no GitHub |
 | **Renovate** | Automatizar revisões e atualização de dependências | Vários, em plataformas Git | Open source/comercial gerenciado | Configurado por `renovate.json` |

@@ -6,6 +6,8 @@
 
 Este guia cobre a anatomia de pacotes, gerenciadores de dependências, vetores de ataque à cadeia de suprimentos e controles defensivos para desenvolvimento, DevSecOps, Application Security e estudo. O foco é prático: inventariar componentes, controlar versões, verificar a origem dos artefatos e reduzir a execução implícita de código durante instalação e build.
 
+As principais práticas usam SBOM (Software Bill of Materials), SLSA (Supply-chain Levels for Software Artifacts) e SCA (Software Composition Analysis) para transformar componentes em inventário, proveniência e decisão contínua de risco.
+
 ## Respostas rápidas
 
 | Preciso de... | Onde começar |
